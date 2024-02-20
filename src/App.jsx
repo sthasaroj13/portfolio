@@ -22,7 +22,7 @@ function App() {
 
 					<div  className='flex  gap-4 mr-4'>
 						<span>
-							<a href="/">Home</a>
+							<a href="#Home">Home</a>
 						</span>
 						<span>
 							<a href="#project">Project</a>

@@ -1,5 +1,5 @@
 import React from 'react'
-import myImg from '../Image/Saroj.jpg'
+import myImg from '../Image/saroj.png'
 
 
 function Home() {
