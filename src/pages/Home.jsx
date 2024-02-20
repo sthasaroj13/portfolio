@@ -1,5 +1,5 @@
 import React from 'react'
-import myImg from '../Image/saroj.png'
+// import myImg from '../Image/saroj.png'
 
 
 function Home() {
@@ -28,11 +28,11 @@ function Home() {
 					</div>
 
 					<div className=" mt-16">
-						<img 
+						{/* <img 
             className=""
             style={{height:'20rem', width:'20rem', borderRadius:'180px', border:'5px solid aquamarine' }}
           
-            src={myImg}/>
+            src={myImg}/> */}
 					</div>
 				</div>
 
