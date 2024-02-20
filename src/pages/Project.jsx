@@ -14,7 +14,7 @@ function Project() {
           
           src={tick} />
           <div className=" mt-3 ml-3">
-            <a className=" bg-white text-cyan-400 p-1 rounded-xl" href="https://github.com/sthasaroj13/javaScript/blob/main/Tic-Tac-Toe/index.html" target="_blank">See project</a>
+            <a className=" bg-white text-cyan-400 p-1 rounded-xl" href="https://fungame-sarojstha123.vercel.app/" target="_blank">See project</a>
 
 
       
