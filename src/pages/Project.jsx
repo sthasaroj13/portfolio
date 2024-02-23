@@ -5,7 +5,7 @@ import Currency from"../Image/currency.png"
 function Project() {
   return (
     
-    <div className=" text-white mt-16" id="project" >
+    <div className=" text-white bg-blue-950 mt-16" id="project" >
       <h1 className="txt-heading text-cyan-400 ml-24 font-bold  underline">Projects</h1>
       <div className="flex flex-wrap justify-center gap-20 items-center">
         <div className=" ml-24 ">
