@@ -30,7 +30,7 @@ function Project() {
           style={{height:'13rem'}}
           src={Currency} alt="" />
           <div className=" mt-3 ml-28">
-            <a className=" bg-white text-cyan-400 p-1 rounded-xl" href="https://github.com/sthasaroj13/javaScript/blob/main/currency%20convertor/index.html">See project</a>
+            <a className=" bg-white text-cyan-400 p-1 rounded-xl" href="https://currencyconvertor-sarojsth123.vercel.app/" target="_blank">See project</a>
          
           
           </div>
