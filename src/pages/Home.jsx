@@ -37,7 +37,7 @@ function Home() {
 
         <div className="mt-8 md:mt-16">
           <img
-            className="rounded-full border-4 border-aquamarine mx-auto md:ml-0 transition duration-500 ease-in-out transform hover:scale-110"
+            className="rounded-full border-4 border-aquamarine mx-auto md:ml-0 transition duration-500 ease-in-out transform hover:scale-110 border-cyan-300"
             style={{ height: "20rem", width: "20rem" }}
             src={myimg}
             alt="Saroj Shrestha"
