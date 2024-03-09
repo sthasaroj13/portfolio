@@ -1,12 +1,12 @@
 import React from "react";
-import myimg from "../Image/saroj.png";
+import myimg from "../Image/saroj1.png";
 import "animate.css/animate.min.css"; // Import animate.css
 
 function Home() {
   return (
     <>
       <div className="flex flex-wrap justify-center mt-10 gap-8 md:gap-28">
-        <div className="text-center md:text-left md:ml-20">
+        <div className="text-center md:text-left md:ml-20  mt-12">
           <h1 className="text-cyan-200 text-2xl md:text-3xl font-bold animate__animated animate__fadeIn" style={{animationDuration: '2s'}}>
             Hello
           </h1>
@@ -35,10 +35,10 @@ function Home() {
           </p>
         </div>
 
-        <div className="mt-8 md:mt-16">
+        <div className="">
           <img
-            className="rounded-full border-4 border-aquamarine mx-auto md:ml-0 transition duration-500 ease-in-out transform hover:scale-110 border-cyan-300"
-            style={{ height: "20rem", width: "20rem" }}
+            className="rounded-lg shadow-lg md:rounded-full md:shadow-xl transition duration-500 ease-in-out transform hover:scale-110 "
+            style={{ maxWidth: "100%", height: "auto", maxHeight: "30rem", width: "20rem" }}
             src={myimg}
             alt="Saroj Shrestha"
           />
