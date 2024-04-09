@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Header() {
   return (
@@ -8,15 +8,37 @@ function Header() {
         <div className=" text-white text-xl">Saroj.</div>
         <nav className="flex justify-end items-center">
           <div>
-            <Link to="/home" className="text-white ml-4">
-              HOME
-            </Link>
-            <Link to="/contact" className="text-white ml-4">
-              CONTACT
-            </Link>
-            <Link to="/project" className="text-white ml-4">
-              PROJECT
-            </Link>
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset if needed
+            duration={500}
+            className="text-white ml-4"
+          >
+            HOME
+          </Link>
+          <Link
+            to="contacts"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset if needed
+            duration={500}
+            className="text-white ml-4"
+          >
+            CONTACT
+          </Link>
+
+          <Link
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset if needed
+            duration={500}
+            className="text-white ml-4"
+          >
+            PROJECT
+          </Link>
           </div>
         </nav>
       </div>
