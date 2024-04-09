@@ -12,7 +12,20 @@ function App() {
 		<div className=" rgba(14, 14, 67, 0.86)" style={{background:'rgba(14, 14, 67, 0.86)'}}>
       <nav className='flex flex-wrap justify-between items-center text-xl bg-purple-500 text-white p-2'>
         <div>
-          <h3 className=''>Who Am I?</h3>
+          <h3 className=''>
+		  <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+			style={{cursor:'pointer',}}
+			className=" hover:text-orange-300"
+
+			>
+         Who Am I?
+          </Link></h3>
         </div>
         <div className='flex gap-4 mr-4'>
           <Link
