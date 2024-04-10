@@ -12,7 +12,7 @@ import sql from '../Image/mysql.png'
 
 function Skills() {
   return (
-    <div className="max-w-screen-xl max-h-64 mx-auto px-4 sm:px-6 lg:px-8 mt-10 mb-[10rem]">
+    <div className="max-w-screen-xl max-h-64 mx-auto px-4 sm:px-6 lg:px-8 mt-10 mb-[12rem]">
       <h1 className="txt-heading text-cyan-400 ml-4 sm:ml-24 font-bold underline">Skills</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         <img src={html} alt="HTML" className="w-16 md:w-24 lg:w-32 h-auto" />
