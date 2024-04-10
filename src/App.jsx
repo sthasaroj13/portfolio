@@ -4,6 +4,7 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Contacts from './pages/Contacts';
+import Skills from "./pages/Skills";
 
 
 function App() {
@@ -55,6 +56,18 @@ function App() {
           </Link>
           <Link
             activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+			style={{cursor:'pointer'}}
+			className=" hover:text-orange-300"
+			>
+            Skills
+          </Link>
+          <Link
+            activeClass="active"
             to="contacts"
             spy={true}
             smooth={true}
@@ -65,6 +78,7 @@ function App() {
 			>
             Contact
           </Link>
+          
         </div>
       </nav>
       <div className='scroll-smooth'>
@@ -74,9 +88,13 @@ function App() {
         <Element name="project">
           <Project />
         </Element>
+        <Element name='skills'>
+          <Skills/>
+        </Element>
         <Element name="contacts">
           <Contacts />
         </Element>
+        
       </div>
 			  </div>
     </Router>

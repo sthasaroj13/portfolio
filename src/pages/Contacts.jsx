@@ -3,6 +3,8 @@ import React from "react";
 function Contacts() {
   return (
     <>
+    <div style={{ backgroundColor: 'rgb(22 31 59 / 25%) ' }}>
+
      <h1 className="txt-heading mt-20 text-cyan-400 ml-24 font-bold underline">
           Contact me
         </h1>
@@ -47,7 +49,7 @@ function Contacts() {
               rows="3"
               placeholder="enter message . . ."
               className=" rounded-xl w-72 p-1"
-            ></textarea>{" "}
+              ></textarea>{" "}
             <br />
             <button className=" bg-slate-200 text-cyan-600 p-2 rounded-xl mt-2 mb-5">
               Submit
@@ -79,6 +81,7 @@ function Contacts() {
 
             </div>
       </div>
+              </div>
     </>
   );
 }
