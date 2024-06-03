@@ -3,11 +3,12 @@ import tick from "../Image/game.png";
 import Currency from "../Image/currency.png";
 import music from "../Image/musicworld.png";
 import bookmirta from "../Image/Image.png";
+import blogify from "../Image/blogify.png";
 
 function Project() {
   return (
     <div
-      className="text-white mt-16 p-5"
+      className="text-white mt-16 p-5 flex flex-wrap"
       id="project"
       style={{ backgroundColor: "rgb(22 31 59 / 25%) " }}
     >
@@ -57,7 +58,6 @@ function Project() {
             </a>
           </div>
         </div>
-
         <div className="ml-4 sm:ml-0">
           <h3 className="ml-2 sm:ml-4">BookMitra</h3>
           <img style={{ height: "13rem" }} src={bookmirta} alt="" />
@@ -65,6 +65,25 @@ function Project() {
             <a
               className="bg-white text-cyan-400 p-1 rounded-xl"
               href="https://github.com/sthasaroj13/BookMitra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See project
+            </a>
+          </div>
+        </div>{" "}
+        <br />
+        <div className="ml-4 sm:ml-0">
+          <h3 className="ml-2 sm:ml-4">Blogify</h3>
+          <img
+            style={{ height: "13rem", width: "20rem" }}
+            src={blogify}
+            alt=""
+          />
+          <div className="mt-3 ml-2 sm:ml-3 flex justify-center">
+            <a
+              className="bg-white text-cyan-400 p-1 rounded-xl"
+              href="https://github.com/sthasaroj13/Blogify"
               target="_blank"
               rel="noopener noreferrer"
             >
