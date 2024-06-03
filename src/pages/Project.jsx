@@ -2,7 +2,7 @@ import React from "react";
 import tick from "../Image/game.png";
 import Currency from "../Image/currency.png";
 import music from "../Image/musicworld.png";
-import bookmirta from "../Image/Image.png";
+import bookmirta from "../Image/image.png";
 import blogify from "../Image/blogify.png";
 
 function Project() {
