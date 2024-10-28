@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className=" bg-black">
-        <nav className=" text-xl font-barlow bg-red-600 text-white p-5">
+        <nav className=" text-xl font-barlow bg-red-600 text-white p-3">
           <div className="max-w-[90rem] mx-auto flex flex-wrap justify-between items-center ">
             <div>
               <h3 className="">
@@ -101,6 +101,11 @@ function App() {
             <Contacts />
           </Element>
         </div>
+        <footer className=" bg-red-700 p-3">
+          <h3 className=" text-white font-barlow text-2xl text-center">
+            Created and designed by Saroj Shrestha
+          </h3>
+        </footer>
       </div>
     </Router>
   );
