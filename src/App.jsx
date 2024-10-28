@@ -1,13 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, Element, animateScroll as scroll } from "react-scroll";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
@@ -58,7 +51,7 @@ function App() {
                 style={{ cursor: "pointer" }}
                 className=" hover:text-orange-300  text-2xl"
               >
-                Project
+                Projects
               </Link>
               <Link
                 activeClass="active"
