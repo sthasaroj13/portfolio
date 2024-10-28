@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className=" bg-black">
-        <nav className=" text-xl font-barlow bg-red-600 text-white p-6">
+        <nav className=" text-xl font-barlow bg-red-600 text-white p-5">
           <div className="max-w-[90rem] mx-auto flex flex-wrap justify-between items-center ">
             <div>
               <h3 className="">
