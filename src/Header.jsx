@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function Header() {
   return (
     <>
-      <div className=" flex bg-purple-900  p-2  ">
+      <div className=" flex bg-red-700  p-2  ">
         <div className=" text-white text-xl">Saroj.</div>
         <nav className="flex justify-end items-center">
           <div>
