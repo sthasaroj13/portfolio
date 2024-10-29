@@ -3,6 +3,9 @@ import myimg from "../Image/saroj.png";
 import "animate.css/animate.min.css"; // Import animate.css
 
 function Home() {
+  const openPDF = () => {
+    window.open("/saroj.pdf", "_blank");
+  };
   return (
     <div className="max-w-[80rem] mx-auto p-4">
       <div className="flex flex-wrap justify-center mt-10 bg-zinc-900 border-2  border-red-700 p-4 md:p-8 rounded-lg ">
@@ -47,6 +50,12 @@ function Home() {
               opportunity to work with you soon! Let's create something amazing
               together!
             </p>
+            <button
+              onClick={openPDF}
+              className="mt-6 px-3 py-1 bg-red-600 text-white font-barlow text-lg rounded hover:bg-red-700"
+            >
+              View my CV
+            </button>
           </div>
         </div>
       </div>
