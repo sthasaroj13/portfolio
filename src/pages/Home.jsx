@@ -4,7 +4,7 @@ import "animate.css/animate.min.css"; // Import animate.css
 
 function Home() {
   const openPDF = () => {
-    window.open("/Saroj.pdf", "_blank");
+    window.open("/saroj.pdf", "_blank");
   };
   return (
     <div className="max-w-[80rem] mx-auto p-4">
