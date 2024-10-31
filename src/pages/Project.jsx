@@ -4,6 +4,7 @@ import Currency from "../Image/currency.png";
 import music from "../Image/musicworld.png";
 import bookmirta from "../Image/image.png";
 import blogify from "../Image/blogify.png";
+import hamroNibas from "../Image/hamroNibas.png";
 
 function Project() {
   return (
@@ -81,6 +82,18 @@ function Project() {
               <a
                 className="mt-3  bg-red-700 text-white p-2 rounded-lg font-barlow"
                 href="https://github.com/sthasaroj13/Blogify"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View project
+              </a>
+            </div>
+            <div className="p-4 border rounded-lg border-gray-700 flex flex-col items-center">
+              <h3 className="text-lg font-semibold mb-2">HamroNibas</h3>
+              <img className="h-52 w-auto" src={hamroNibas} alt="hamroNibas" />
+              <a
+                className="mt-3  bg-red-700 text-white p-2 rounded-lg font-barlow"
+                href="https://github.com/sthasaroj13/HamroNibas_Client"
                 target="_blank"
                 rel="noopener noreferrer"
               >
