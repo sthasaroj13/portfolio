@@ -1,10 +1,9 @@
-import React from "react";
 import myimg from "../Image/saroj.png";
 import "animate.css/animate.min.css"; // Import animate.css
 
 function Home() {
   const openPDF = () => {
-    window.open("/saroj23.pdf", "_blank");
+    window.open("/sarojstha.pdf", "_blank");
   };
   return (
     <div className="max-w-[80rem] mx-auto p-4">
