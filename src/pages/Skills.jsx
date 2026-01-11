@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../Image/html.png";
 import css from "../Image/CSS.png";
 import js from "../Image/js.png";
@@ -14,7 +13,7 @@ function Skills() {
   return (
     <>
       <div className="max-w-[80rem] mx-auto p-4">
-        <div className="text-white mt-16 p-5 flex flex-col bg-zinc-900 border border-red-700 rounded-lg">
+        <div className="text-black dark:text-white mt-16 p-5 flex flex-col bg-white dark:bg-zinc-900 border border-red-700 rounded-lg">
           <h1 className="txt-heading text-red-700 font-barlow text-3xl md:text-4xl font-bold ">
             Skills
           </h1>

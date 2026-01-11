@@ -12,7 +12,7 @@ function Project() {
   return (
     <div className="max-w-[80rem] mx-auto p-4">
       <div
-        className="text-white mt-16 p-5 flex flex-col bg-zinc-900 border border-red-700 rounded-lg"
+        className="text-black dark:text-white mt-16 p-5 flex flex-col bg-white dark:bg-zinc-900 border border-red-700 rounded-lg"
         id="project"
       >
         <h1 className="txt-heading text-red-700 font-barlow text-3xl md:text-4xl font-bold ">

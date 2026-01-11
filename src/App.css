@@ -1,14 +1,12 @@
-body{
+/* body{
     background-color: rgba(14, 14, 67, 0.86);
     
-}
+} */
 
-  
 .txt-heading {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2rem;
-    padding: 0.5rem;
-    border-bottom: 0.5rem solid var(--green-100);
-    display: inline-block;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-bottom: 0.5rem solid var(--green-100);
+  display: inline-block;
 }
-

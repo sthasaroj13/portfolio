@@ -1,5 +1,5 @@
 import myimg from "../Image/saroj.png";
-import "animate.css/animate.min.css"; // Import animate.css
+import "animate.css/animate.min.css";
 
 function Home() {
   const openPDF = () => {
@@ -7,7 +7,7 @@ function Home() {
   };
   return (
     <div className="max-w-[80rem] mx-auto p-4">
-      <div className="flex flex-wrap justify-center mt-10 bg-zinc-900 border-2  border-red-700 p-4 md:p-8 rounded-lg ">
+      <div className="flex flex-wrap justify-center mt-10 bg-white dark:bg-zinc-900 border-2 border-red-700 p-4 md:p-8 rounded-lg">
         <div className="w-full flex justify-center flex-col md:flex-row gap-8 md:gap-[9rem] items-center md:items-start">
           <div className="w-full md:w-auto flex justify-center">
             <img
@@ -18,7 +18,7 @@ function Home() {
           </div>
           <div className="text-center md:text-left">
             <h1
-              className="text-white font-barlow text-3xl md:text-4xl font-bold animate__animated animate__fadeIn"
+              className="text-black dark:text-white font-barlow text-3xl md:text-4xl font-bold animate__animated animate__fadeIn"
               style={{ animationDuration: "2s" }}
             >
               Hello
@@ -30,7 +30,7 @@ function Home() {
               I am Saroj Shrestha
             </h2>
             <p
-              className="text-white text-lg md:text-xl mt-4 font-barlow max-w-full md:max-w-[40rem]"
+              className="text-black dark:text-white text-lg md:text-xl mt-4 font-barlow max-w-full md:max-w-[40rem]"
               style={{ whiteSpace: "normal" }}
             >
               Welcome to my portfolio! I am an aspiring developer, eager to
